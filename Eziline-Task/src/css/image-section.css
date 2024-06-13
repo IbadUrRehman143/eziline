@@ -1,0 +1,251 @@
+.section-img1 {
+    margin-left: 7%;
+    margin-top: 4%;
+    display: flex;
+}
+
+.section-img1 .img-div {
+    position: relative;
+}
+
+.section-img1 .img-div .line {
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    transition: width 0.2s linear;
+}
+
+.section-img1 .img-div .line:hover {
+    width: 150px;
+}
+
+.section-img1 h5 {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.section-img1 h1 {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.section-img1 p {
+    margin-left: 25%;
+    margin-top: 8%;
+    width: 425PX;
+}
+
+.section-img1 a {
+    margin-left: 25%;
+    color: green;
+    text-decoration: none;
+}
+
+.section-img2 {
+    margin-right: 7%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-img2 h5 {
+    margin-left: -25%;
+    margin-top: 10%;
+}
+
+.section-img2 h1 {
+    margin-left: -25%;
+    margin-top: 3%;
+}
+
+.section-img2 .img-div {
+    position: relative;
+}
+
+.section-img2 .img-div .line {
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    right: 350px;
+    transition: width 0.2s linear;
+}
+
+.section-img2 .img-div .line:hover {
+    width: 150px;
+}
+
+.section-img2 p {
+    margin-left: -25%;
+    margin-top: 3%;
+    width: 400PX;
+}
+
+.section-img2 a {
+    margin-left: -25%;
+    color: green;
+    text-decoration: none;
+}
+
+.v {
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.section-img3 {
+    margin-left: 7%;
+    margin-top: 4%;
+    display: flex;
+}
+
+.section-img3 h5 {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.section-img3 h1 {
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.section-img3 p {
+    margin-left: 25%;
+    margin-top: 3%;
+    width: 400PX;
+}
+
+.section-img3 .img-div {
+    position: relative;
+}
+
+.section-img3 .img-div .line {
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    transition: width 0.2s linear;
+}
+
+.section-img3 .img-div .line:hover {
+    width: 150px;
+}
+
+.section-img3 a {
+    margin-left: 25%;
+    color: green;
+    text-decoration: none;
+}
+
+.section-img4 {
+    margin-right: 7%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-img4 h5 {
+    margin-left: -25%;
+    margin-top: 10%;
+}
+
+.section-img4 .img-div {
+    position: relative;
+}
+
+.section-img4 .img-div .line {
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    right: 350px;
+    transition: width 0.2s linear;
+}
+
+.section-img4 .img-div .line:hover {
+    width: 150px;
+}
+
+.section-img4 h1 {
+    margin-left: -25%;
+    margin-top: 10%;
+}
+
+.section-img4 p {
+    margin-left: -25%;
+    margin-top: 8%;
+    width: 400PX;
+}
+
+.section-img4 a {
+    margin-left: -25%;
+    color: green;
+    text-decoration: none;
+}
+
+.section-img5 {
+    margin-left: 7%;
+    margin-top: 4%;
+    display: flex;
+}
+
+.section-img5 h5 {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.section-img5 h1 {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.section-img5 p {
+    margin-left: 25%;
+    margin-top: 8%;
+    width: 400PX;
+}
+
+.section-img5 a {
+    margin-left: 25%;
+    color: green;
+    text-decoration: none;
+}
+
+.section-img5 .img-div {
+    position: relative;
+}
+
+.section-img5 .img-div .line {
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    transition: width 0.2s linear;
+}
+
+.section-img5 .img-div .line:hover {
+    width: 150px;
+}
+@media (max-width: 768px) {
+    .image-section {
+        padding: 30px 10px;
+    }
+
+    .image-section img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-section {
+        padding: 20px 5px;
+    }
+}

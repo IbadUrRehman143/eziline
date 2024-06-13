@@ -1,0 +1,111 @@
+.ft-color {
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-section {
+    margin-left: 6%;
+    margin-top: 7%;
+}
+
+.footer .footer-section .heading-2 {
+    color: white;
+    margin-left: 5%;
+
+}
+
+.footer .footer-section p {
+    color: rgb(213, 210, 210);
+    margin-left: 5%;
+    padding-top: 10%;
+    width: 220px;
+
+}
+
+.footer2-section .list .text {
+    margin-left: 5%;
+    color: rgb(213, 210, 210);
+}
+
+.row a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-section .list {
+    color: white;
+
+    padding-top: 10%;
+    display: flex;
+    list-style-type: none;
+}
+
+.footer .footer-section .list a {
+    color: rgb(213, 210, 210);
+    /* padding-left: 5%; */
+}
+
+.footer .footer-section .list li {
+    margin-left: 10%;
+
+}
+
+.footer .footer2-section {
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.footer .footer2-section .heading-2 {
+    color: white;
+}
+
+.footer .footer2-section li {
+    list-style-type: none;
+    color: rgb(213, 210, 210);
+    margin-top: 24px;
+
+}
+
+.footer .footer2-section .list li a {
+    text-decoration: none;
+    color: rgb(213, 210, 210);
+}
+
+.footer2-section ul {
+    color: rgb(213, 210, 210);
+    margin-top: 28px;
+}
+
+.footer2-section ul li span {
+    padding-right: 12px;
+}
+
+.row {
+    text-align: center;
+    margin-top: 20%;
+
+
+}
+
+.row span {
+    color: white;
+}
+
+.row p {
+    padding-bottom: 5%;
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 10px;
+    }
+}

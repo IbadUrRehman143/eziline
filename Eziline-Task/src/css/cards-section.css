@@ -1,0 +1,63 @@
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    /* Evenly distribute space between cards */
+    align-items: center;
+    /* Center items vertically */
+    margin-left: 6%;
+    margin-top: 10%;
+}
+
+.cards-section div {
+    padding: 20px;
+    /* Uniform padding for all cards */
+    text-align: center;
+    /* Center align text within each card */
+    border-right: 1px solid gray;
+    display: flex;
+}
+
+.cards-section div:last-child {
+    border: none;
+}
+
+.cards-section h2 {
+    color: hsl(120, 90%, 32%);
+    margin-top: 6%;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.cards-section p {
+    padding: 3%;
+    font-weight: bold;
+
+}
+
+
+
+/* ---------media query---------- */
+
+
+@media (max-width: 1200px) {
+    .cards-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-section div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-section {
+        flex-direction: column;
+    }
+
+    .cards-section div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
